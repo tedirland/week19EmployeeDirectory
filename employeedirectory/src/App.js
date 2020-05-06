@@ -1,10 +1,11 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
 import UserTable from "./components/userTable"
+import SearchForm from './components/searchForm';
 
 function App() {
-  return <UserTable />
+  return <UserTable/>
+
   
   ;
 }
